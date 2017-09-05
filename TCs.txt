@@ -1,0 +1,37 @@
+Verify that the re Ui.....
+Verify that it is possible to create a report with dates.
+Verify that dates saved on a report are being recover correctly.
+Verify that it is possible to update the dates of a created report.
+Verify that it is possible to delete a report with dates.
+Verify that the DATE ITEMS value by default is "This Month".
+Verify that FROM and THROUGH have the current month(server date) data.  
+Verify that the "Account Balances Begin" data is one day after the "Organization's Fiscal Year-end" data.
+Verify that the "Current Reporting Year Begins" data is one day + one year after the "Organization's Fiscal Year-end" data.
+Verify that the date format for all date fields is MM/DD/YYYY.
+Verify DATE ITEMS data is displayed correctly. 
+
+
+
+
+
+Balances Dates
+Account Balances Begin date
+Current Reporting Year Begins date
+Current Transaction Dates
+Date Items (Custom, This Month, This Quarter, This Year, Last Month, Last Quarter, Last Year)
+From date
+Through date
+Read existing report date as saved unless the Date Item is not Custom.
+The dates are based on the fiscal year end for the database and the Date Item.
+Save the Date Items and dates as entered on a new or existing report.
+
+Date Items are static.
+Dates must be converted to MM/DD/YYYY for the query
+
+
+
+
+The Groups tab will appear between the Filters tab and the Options tab.
+The groups tab is a mover type look with Available Segments (Add All, Remove All, Search items and all the groups) and Selected Segments (Available Segments and Group Set
+Display the Available Segments group codes (Fund Group, Grant Group, etc.) which have group sets created through Reports - Assign Report Groups (by segment)
+Allow Groups to be selected and deselected.
